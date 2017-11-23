@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&amp;subset=cyrillic" rel="stylesheet">
+	<script src="jquery-3.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="main_window">
+		
+		<div class="text_top">ВЕБ-ДИЗАЙН-ОНЛАЙН-МАРАФОН <br> <span > 23, 24 И 27 ФЕВРАЛЯ  </span><br> 19:00</div>
+		
+		<div class="text_main">LANDING PAGE</div>
+		
+		<div class="text_bottom">УЧАСТВУЙТЕ В СЕРИИ МАСТЕР-КЛАССОВ ПО ДИЗАЙНУ И ВЕРСТКЕ СОВРЕМЕННОГО LANDING PAGE С ПРОВЕРКОЙ РАБОТЫ И ПРИЯТНЫМИ ПРИЗАМИ</div>
+
+		<div class="main_img"><img class="main_img_img" src="main_naz.png" alt=""></div>
+
+	</div>
+
+	<div class="second_main">
+		
+		<div class="title_second">КАК ЭТО БУДЕТ</div>
+
+	
+
+
+	<div class="second_content">
+		
+		<div class="second_img"><img src="square.png" alt=""></div>
+
+		<ul>
+			<li><img src="" alt=""><span class="date">23.02</span><span class="name_cat">День дизайна</span> <br><span class="txt">Мы разберемся с тем, каким должен быть Landing Page и дизайн сайтов в 2017 году, а также разработаем свой собственный уникальный дизайн лендинга, согласно всех правил и понятий</span>    </li>
+			<li><img src="" alt=""><span class="date">23.02</span><span class="name_cat">День верстки</span><br> <span class="txt">Каждый из нас сверстает созданный ранее макет лендинга с помощью HTML/CSS/JS. Мы используем все необходимые инструменты для полноценной верстки сайта с нуля, даже если у вас не было опыта в этой сфере</span> </li>
+			<li><img src="" alt=""><span class="date">25.02</span><span class="name_cat">День результатов</span><br><span class="txt">Каждая работа будет разобрана в "прямом эфире", вы получите компентентую обратную связь. Каждый участник получит онлайн-подарок, а авторы лучших работ - большие скидки на обучение! Об этом далее на странице.</span>  </li>
+		</ul>
+
+	</div>
+</div>
+</body>
+</html>
+
+
+<script>
+	
+	jQuery(function(f){
+    var element = f('.second_content');
+    f(window).scroll(function(){
+        element['fade'+ (f(this).scrollTop() > 500 ? 'In': 'Out')](500);           
+    });
+});
+
+
+
+</script>

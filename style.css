@@ -1,0 +1,224 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+br
+{
+
+
+
+}
+
+@keyframes main {
+	from { margin-top: 10vh;}
+	to { margin-top: 15vh; }
+}
+
+
+@keyframes second {
+	from { margin-right: -100vw;  }
+	to { margin-right: 10vw; }
+}
+
+@keyframes second1 {
+	from { left: -100vw;  }
+	to { left: 10vw; }
+}
+
+.main_window
+{
+	width: 100vw;
+	height: 100vh;
+	background-color: #E9264A;
+
+	position: relative;
+}
+
+.text_top
+{
+	font-weight: 400;
+	font-stretch: 400;
+	width: 20vw;
+	height: 20vh;
+ color: #FEF6F8;
+
+border: 0px solid silver;
+font-family: 'Amatic SC', cursive;
+font-size: 1.5vw;
+word-spacing:5px;
+margin: auto;
+
+padding-top: 7vh;
+
+text-align: center;
+}
+
+.text_top span
+
+{
+
+font-weight: bold;
+
+}
+
+.text_main
+{
+
+	color: #FFE4F0;
+	font-family: 'Baumans';
+
+	border:0px solid silver;
+
+	margin: auto;
+
+	width: 60vw;
+
+	font-weight: 800;
+
+	font-size: 7vw;
+
+	text-align: center;
+
+	letter-spacing: 8px;
+}
+
+.text_bottom
+{
+
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	width: 40vw;
+	font-size: 1vw;
+	text-align: center;
+	border:0px solid silver;
+
+	font-weight: bold;
+
+	margin: auto;
+		margin-top: 8vh;
+}
+
+.main_img
+{
+
+	border: 0px solid silver;
+
+	width: 5vw;
+
+	margin: auto;
+	margin-top: 10vh;
+
+
+
+
+}
+
+.main_img:hover
+{
+
+	animation-name: main;
+
+	animation-duration: 1s;
+
+	animation-direction: alternate;
+}
+
+.main_img_img
+{
+
+	width: 5vw;
+	height: auto;
+
+}
+
+.second_main
+{
+
+	width: 100vw;
+	height: 100vh;
+position: relative;
+}
+
+.title_second
+{
+
+	margin: 0 auto;
+
+	border: 0px solid silver;
+
+	width: 30vw;
+	
+	text-align: center;
+	margin-top: 10vh;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7vw;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+}
+
+.second_content
+{
+
+	margin: 10vh 0;
+
+	margin-right: 10vw;
+	float: right;
+	border: 0px solid silver;
+
+	width: 50vw;
+	height: 65vh;
+
+	animation-name: second;
+	animation-duration: 1s;
+
+
+}
+
+.date{
+
+font-family: 'Oswald', sans-serif;
+font-size: 4vw;
+color: #DA215E;
+
+}
+.name_cat
+{
+margin-left: 2vw;
+font-family: 'Oswald', sans-serif;
+font-size: 2.5vw;
+letter-spacing: 0.3px;
+color: #646464;
+}
+
+.txt
+{
+	width: 40vw;
+	border: 0px solid silver;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1vw;
+	color: #575757;
+	margin-left: 10vw;
+	display: block;
+}
+
+.second_img{
+
+	position: absolute;
+
+	left: 10vw;
+	top: 25vh;
+	animation-name: second1;
+
+	animation-duration: 1s;
+}
+
+.second_content ul li 
+{
+
+	margin-top: 3vh;
+
+}
